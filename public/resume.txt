@@ -1,0 +1,97 @@
+﻿Justin Pettit
+Jr Full Stack Web and Software Developer
+“We need to talk, because I can help your company”
+	 San Francisco
+ (707) 529-7243
+portfolio: www.justin.gent
+justinmichaelpettit@gmail.com
+linkedin.com/in/JustinMichaelPettit                                   github.com/ahza64
+	
+
+EXPERIENCE
+General Assembly — Full Stack Web Developer Graduate
+March - June 2016
+A 60 hour per week program, learning and building Ruby/RoR and M.E.A.N. stack apps. 
+Peterson co — Lead Power Generation Industrial Field Technician
+11 Year career 2004-2015
+* Top of my class through a 3 year, 70 hr week training A.S. program
+* Ended my career as the top engineer in the bay area
+* Learned German on my own, to program cutting edge controls from Germany
+* Developed many processes in the agile and six sigma environment that saved the company millions
+* Increased client retention through empathy and negotiation
+* Improved logistical processes on projects I led
+* Demonstrated expertise in IoT for automation, controls and monitoring 
+WEB DEV PROJECTS
+SF secrets — M.E.A.N. stack, multi-external API app, -link
+Curiosity about life, adaptability and courage can reveal many secrets. Feel free to explore or sign up and share. Built from the ground up in 8 days in the MEAN stack.
+@-Some-Point — Ruby/RoR Team project, -link
+Inspired by google’s APIs and logistics were motivation for several projects. Find your shortest route among several points. Being elected project manager on this app, I also built the Auth, the controllers and SQL DB. We built this Ruby/RoR app in 7 days. 
+ProBuilder — M.E.A.N. stack, project tracker app, -link
+Better communication can increase production. Track your projects and tasks using my first full stack app. Currently being BETA tested by a company. Built in 5 days.
+Self-Building Race — Self-building Object Oriented race game
+Going above and beyond, this program builds its own player and board objects. Race each other by rapidly pressing your key.
+EDUCATION
+SJDC/SRJC — several A.S. degrees in technical repair
+2003-2005
+The 2nd highest (out of 2,200 participants) “CAT train test” score in the state of CA. Graduated top of my class (4.0 gpa on three degrees)
+	JavaScript
+
+
+Ruby on Rails
+
+
+Node.JS
+
+
+Ruby
+
+
+Angular 1x
+
+
+IoT
+
+
+TDD
+
+
+MongoDB
+
+
+Mongoose
+
+
+postgreSQL
+
+
+Express
+
+
+AJAX
+
+
+JSON
+
+
+BSON
+
+
+Git/GitHub
+
+
+Heroku
+
+
+Bootstrap
+
+
+Handlebars
+
+
+jQuery
+
+
+Python
+
+
+CSS

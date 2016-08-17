@@ -5,7 +5,7 @@ $(document).ready(function() {
 
   $('.link').on('click', function(event){
     console.log("link clicked");
-    $(this).append('<div class="alert alert-info" role="alert">Wait 10 seconds. My free standby servers are warming up.</div>');
+    $(this).replaceWith('<div class="alert alert-info" role="alert">Please wait up to 10 seconds. My free standby servers are warming up.</div>');
   });
 
 

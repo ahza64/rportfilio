@@ -14,12 +14,15 @@
   top: 100px;
   right: 0px;
   transition: transform .5s;
+  animation-name: rotate;
+  animation-duration: 3s
 }
-// .linkedin:hover {
-//   transform: rotate(720deg) scale(1.5);
-// }
 .linkedin:hover {
   transform: rotateX(360deg) rotate(720deg) scale(1.5);
+}
+@keyframes rotate {
+  0% {transform-origin: 1000% 1000%; transform: translate(-1000px, 0) rotateX(0deg) rotate(0deg);}
+  100% {transform: translate(0, 0) rotateX(360deg) rotate(-720deg);}
 }
 
 .github {
@@ -32,9 +35,9 @@
   animation-duration: 3s;
 }
 @keyframes colorchange {
-  0% {background: red;}
+  0% {transform: translate(-1000px, 0) rotateX(0deg); background: red;}
   50% {background: blue;}
-  100% {background: white;}
+  100% {transform: translate(0, 0) rotateX(720deg); background: white;}
 }
 
 .email {
@@ -43,11 +46,11 @@
   top: 160px;
   right: 0px;
   animation-name: move;
-  animation-duration: 1s;
+  animation-duration: 3s;
 }
 @keyframes move {
-  from {transform: translate(-1000px, 1000px);}
-  to {transform: translate(0, 0);}
+  from {transform-origin: 1000% 1000%; transform: translate(-1000px, 0px) rotateY(0deg) rotate(0deg);}
+  to {transform: translate(0, 0) rotateY(720deg) rotate(360deg);}
 }
 
 .textorange {

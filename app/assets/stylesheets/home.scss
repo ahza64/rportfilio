@@ -21,7 +21,7 @@
   transform: rotateX(360deg) rotate(720deg) scale(1.5);
 }
 @keyframes rotate {
-  0% {transform-origin: 1000% 1000%; transform: translate(-1000px, 0) rotateX(0deg) rotate(0deg);}
+  0% {transform-origin: 1000% 1000%; transform: translate(-1500px, -120px) rotateX(0deg) rotate(0deg);}
   100% {transform: translate(0, 0) rotateX(360deg) rotate(-720deg);}
 }
 
@@ -31,13 +31,21 @@
   top: 130px;
   right: 0px;
   background: white;
-  animation-name: colorchange;
+  transition: transform .5s;
+  animation-name: colorchange, spin;
   animation-duration: 3s;
 }
+.github:hover {
+  transform: scale(1.5); background:blue;
+}
+@keyframes spin {
+  from {transform: translate(-1500px, -120px) rotateX(0deg);}
+  to {transform: translate(0, 0) rotateX(720deg);}
+}
 @keyframes colorchange {
-  0% {transform: translate(-1000px, 0) rotateX(0deg); background: red;}
+  0% {background: red;}
   50% {background: blue;}
-  100% {transform: translate(0, 0) rotateX(720deg); background: white;}
+  100% {background: white;}
 }
 
 .email {
@@ -45,11 +53,15 @@
   z-index: 10;
   top: 160px;
   right: 0px;
+  transition: transform .5s;
   animation-name: move;
   animation-duration: 3s;
 }
+.email:hover {
+  transform: rotateX(360deg) scale(1.5);
+}
 @keyframes move {
-  from {transform-origin: 1000% 1000%; transform: translate(-1000px, 0px) rotateY(0deg) rotate(0deg);}
+  from {transform-origin: 1000% 1000%; transform: translate(-1500px, 500px) rotateY(0deg) rotate(0deg);}
   to {transform: translate(0, 0) rotateY(720deg) rotate(360deg);}
 }
 

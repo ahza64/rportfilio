@@ -4,6 +4,7 @@
 .jumbotron {
   background: image-url('ship.jpg') no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   height: 500px;
   color: white;
 }
@@ -109,4 +110,20 @@
 
 .dropdown-menu>li>a{
   // color: white;
+}
+
+#face{
+  height: 100px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+
+.scrollBox{
+  height: 50px;
+  overflow: auto;
+  position: relative;
+  top: 30px;
+  background: rgba(0, 0, 0, .4);
 }

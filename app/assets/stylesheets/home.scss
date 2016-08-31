@@ -7,6 +7,7 @@
   background-attachment: fixed;
   height: 500px;
   color: white;
+  text-shadow: 5px 2px 4px black;
 }
 
 .linkedin {
@@ -114,10 +115,11 @@
 
 #face{
   height: 100px;
-  display: block;
-  margin: auto;
-  position: relative;
+  // display: block;
+  // margin: auto;
+  // position: relative;
   top: 30px;
+  float: right;
 }
 
 .scrollBox{

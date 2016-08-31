@@ -125,7 +125,13 @@
 .scrollBox{
   height: 50px;
   overflow: auto;
-  position: relative;
-  top: 30px;
-  background: rgba(0, 0, 0, .4);
+  // position: relative;
+  // top: 30px;
+  background: rgba(0, 0, 0, .7);
+  color: white;
+}
+
+#outdoor{
+  float: right;
+  height: 50px;
 }

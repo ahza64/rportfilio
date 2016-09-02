@@ -2,10 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .jumbotron {
-  background: image-url('ship.jpg') no-repeat center center;
+  background: url('sailing.gif') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 700px;
   color: white;
   text-shadow: 5px 2px 4px black;
 }

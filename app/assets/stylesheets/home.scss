@@ -1,0 +1,146 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.jumbotron {
+  background: url('sailing3.gif') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  color: white;
+  text-shadow: 5px 2px 4px black;
+}
+
+.linkedin {
+  position: fixed;
+  z-index: 10;
+  top: 100px;
+  right: 0px;
+  transition: transform .5s;
+  animation-name: rotate;
+  animation-duration: 3s
+}
+.linkedin:hover {
+  transform: rotateX(360deg) rotate(720deg) scale(1.5);
+}
+@keyframes rotate {
+  0% {transform-origin: 1000% 1000%; transform: translate(-1500px, -120px) rotateX(0deg) rotate(0deg);}
+  100% {transform: translate(0, 0) rotateX(360deg) rotate(-720deg);}
+}
+
+.github {
+  position: fixed;
+  z-index: 10;
+  top: 130px;
+  right: 0px;
+  background: white;
+  transition: transform .5s;
+  animation-name: colorchange, spin;
+  animation-duration: 3s;
+}
+.github:hover {
+  transform: scale(1.5); background:blue;
+}
+@keyframes spin {
+  from {transform: translate(-1500px, -120px) rotateX(0deg);}
+  to {transform: translate(0, 0) rotateX(720deg);}
+}
+@keyframes colorchange {
+  0% {background: red;}
+  50% {background: blue;}
+  100% {background: white;}
+}
+
+.email {
+  position: fixed;
+  z-index: 10;
+  top: 160px;
+  right: 0px;
+  transition: transform .5s;
+  animation-name: move;
+  animation-duration: 3s;
+}
+.email:hover {
+  transform: rotateX(360deg) scale(1.5);
+}
+@keyframes move {
+  from {transform-origin: 1000% 1000%; transform: translate(-1500px, 500px) rotateY(0deg) rotate(0deg);}
+  to {transform: translate(0, 0) rotateY(720deg) rotate(360deg);}
+}
+
+.textorange {
+  color: orange;
+}
+
+.textblue {
+  color: blue;
+}
+
+.navbar {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.8) 25%,
+    rgba(0, 0, 0, 0.8) 75%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1.0);
+}
+
+.dropdown-menu {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1.0);
+  border: 0px;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background: -webkit-radial-gradient(
+    top,
+    circle,
+    rgba(0, 0, 0, 0.8),
+    rgba(255, 255, 255, 0.8) 20%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.navbar-fixed-top{
+  border: 0px;
+}
+
+.dropdown-menu>li>a{
+  // color: white;
+}
+
+#face{
+  height: 100px;
+  // display: block;
+  // margin: auto;
+  // position: relative;
+  top: 30px;
+  float: right;
+}
+
+.scrollBox{
+  height: 50px;
+  overflow: auto;
+  // position: relative;
+  // top: 30px;
+  background: rgba(0, 0, 0, .7);
+  color: white;
+}
+
+#outdoor{
+  float: center;
+  height: 100px;
+}
+
+.footer{
+  text-align: center;
+  padding: 40px;
+}
+
+// #herokuLinkFix{
+//   display:none;
+// }
